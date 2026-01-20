@@ -1,0 +1,14 @@
+struct mystructure{
+    int mynum;
+    char myletter;
+};
+#include <stdio.h>
+
+int main() {
+    struct mystructure s1;
+    s1.mynum = 30;
+    s1.myletter = 'b' ;
+printf("My number= %d\n", s1.mynum);
+printf("My letter = %c", s1.myletter);
+   return 0;
+}
